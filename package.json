@@ -1,8 +1,19 @@
 {
-  "name": "sam-test-app-2",
+  "name": "sam-test-app-4",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.0.4",
   "type": "module",
+  "main": "./dist/my-lib.umd.cjs",
+  "module": "./dist/my-lib.js",
+  "exports": {
+    ".": {
+      "import": "./dist/my-lib.js",
+      "require": "./dist/my-lib.umd.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
@@ -18,5 +29,13 @@
     "typescript": "~5.7.2",
     "vite": "^6.2.0",
     "vue-tsc": "^2.2.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrangeSAM/my-vue-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OrangeSAM/my-vue-app/issues"
+  },
+  "homepage": "https://github.com/OrangeSAM/my-vue-app/blob/main/README.md"
 }
