@@ -1,9 +1,15 @@
 import TestButton from "./button/index.vue";
 
-// 按需引入
-export { TestButton };
+import AudioPlayer from "../components/AudioPlayer.vue";
+import { useAudioPlayer } from "../composables/useAudioPlayer";
+import type { AudioPlayerOptions, AudioPlayerInstance } from "../types/index";
 
-const component = [TestButton];
+// 按需引入
+export { TestButton, AudioPlayer, useAudioPlayer };
+// 导出类型
+export type { AudioPlayerOptions, AudioPlayerInstance };
+
+const component = [TestButton, AudioPlayer];
 
 // @ts-expect-error
 const install = function (App) {

@@ -6,12 +6,12 @@ import path from "path";
 export default defineConfig({
   plugins: [vue()],
   build: {
-    outDir: "MyLibDir", //输出文件名
+    // outDir: "dist", //输出文件名，默认dist
     // 库编译模式配置
     lib: {
       entry: path.resolve(__dirname, "./src/components/index.js"), //指定组件编译入口文件
       name: "MyLib",
-      fileName: "MyTestLib",
+      fileName: "mytestlib",
     },
     rollupOptions: {
       // 确保外部化处理那些你不想打包进库的依赖
