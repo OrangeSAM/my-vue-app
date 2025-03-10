@@ -1,5 +1,10 @@
-# Vue 3 + TypeScript + Vite
+## introduction
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+this repo is used to create a npm package which aim to simplify the audio play on vue3 project.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## quoto
+
+1. https://juejin.cn/post/7470680584005763082?from=search-suggest
+2. https://juejin.cn/post/7257144279050403896?from=search-suggest
+3. https://juejin.cn/post/7257144279050403896?searchId=2025022618050275396CA6CB15E068E612
+4. https://juejin.cn/post/7242111660793430071?from=search-suggest

@@ -1,14 +1,14 @@
 {
   "name": "sam-test-app-4",
   "private": false,
-  "version": "0.0.6",
+  "version": "0.0.7",
   "type": "module",
   "main": "./dist/mytestlib.umd.cjs",
   "module": "./dist/mytestlib.js",
   "exports": {
     ".": {
-      "import": "./dist/my-lib.js",
-      "require": "./dist/my-lib.umd.cjs"
+      "import": "./dist/mytestlib.js",
+      "require": "./dist/mytestlib.umd.cjs"
     }
   },
   "files": [
